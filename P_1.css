@@ -1,31 +1,66 @@
-* {
-    box-sizing: border-box;
-    background-color:LightGrey;
+#box1 {
+    border: 2px solid black;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    overflow: auto;
+    padding: 40px;
+    margin: 80px;
   }
-  
-  head
-  {
-      text-align: center;
-      color:black;
-      background-color:gray; 
-      margin: 5px;
-      border-style: solid;
-      border-width: 5px;
-      border-color:darkslategray;
+  #data {
+    margin: 40px;
+    width: 80%;
+    margin: auto;
+    background: rgb(119, 106, 106);
+    height: 60px;
+    font-family: monospace;
+    font-size: 2em;
+    text-align: center;
+    border: zpx black solid;
+    padding: 20px;
   }
-  
-  body 
-  {
-      text-align: center;
-      color:black;
-      background-color:gray; 
-      margin: 5px;
-      border-style: solid;
-      border-width: 5px;
-      border-color:darkslategray;
+  #box2 {
+    border: 3px solid black;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    overflow: auto;
+    padding: 20px;
   }
-
-  button 
-  {
-      color:DarkSlateGrey;
+  #data {
+    margin: 20px;
+    width: 80%;
+    margin: auto;
+    background: rgb(119, 106, 106);
+    height: 20px;
+    font-family: monospace;
+    font-size: 2em;
+    text-align: left;
+    border: 1px black solid;
+  }
+  #but2{
+    display: none;
+}
+#but3{
+    display: none;
+}
+#box3 {
+    border: 3px solid black;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    overflow: auto;
+    padding: 20px;
+  }
+  #rankinglist{
+    margin: 40px;
+    width: 80%;
+    margin: auto;
+    background: rgb(249, 245, 245);
+    height: 600px;
+    font-family: monospace;
+    font-size: 2em;
+    text-align: center;
+    border: zpx black solid;
+    padding: 20px;
   }
